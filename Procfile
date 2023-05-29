@@ -1,4 +1,3 @@
 web: node dist/server.js
-
-release: npm prisma migrate deploy
+release: npx prisma migrate deploy
 build: npm run build
